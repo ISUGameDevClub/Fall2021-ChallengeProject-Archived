@@ -13,7 +13,6 @@ public class CameraController : MonoBehaviour
     {
         cameraPosition = new Vector3(playerTr.position.x,playerTr.position.y,-cameraDistance);
         camera = gameObject.GetComponent<Camera>();
-
     }
 
     // Update is called once per frame
